@@ -7,7 +7,7 @@ async function generateCode() {
   const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer YOUR_OPENROUTER_API_KEY",
+      "Authorization": "Bearer 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",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
